@@ -1,6 +1,6 @@
 const http = require('http');
 const PORT = process.env.PORT || 3001;
-const VERSION = '1.0';
+const VERSION = '1.1';
 
 function greet(name) {
   return `Hello ${name}, welcome to the Jenkins CI/CD pipeline demo!`;
