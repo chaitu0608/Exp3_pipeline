@@ -1,0 +1,12 @@
+{
+  "name": "exp3-pipeline",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for Jenkins CI/CD pipeline (Build, Test, Deploy)",
+  "main": "app.js",
+  "scripts": {
+    "build": "node --check app.js && mkdir -p dist && cp app.js package.json dist/ && echo Build complete",
+    "test": "node --test",
+    "start": "node app.js"
+  },
+  "author": "Chaitanya Dhamdhere"
+}
